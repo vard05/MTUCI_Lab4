@@ -9,7 +9,7 @@ import {
     Input,
     Text
 } from '@chakra-ui/react'
-import { download, importData } from '../scripts/jsonHandler'
+import { download } from '../scripts/jsonHandler'
 
 export const Home = () => {
     const [todos, setTodos] = useState([])
